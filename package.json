@@ -1,0 +1,33 @@
+{
+  "name": "yutil",
+  "version": "1.0.0",
+  "description": "YUtil contains some basic function that can be reused across different projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --config buildConfig/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuanjingxue1987/YUtil.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "Yuanjing Xue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuanjingxue1987/YUtil/issues"
+  },
+  "homepage": "https://github.com/yuanjingxue1987/YUtil#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.1",
+    "eslint": "^5.16.0",
+    "jest": "^24.7.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  }
+}
